@@ -387,6 +387,7 @@ public class VentanaCalculadora extends JFrame {
         this.setSize(500, 500);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.pack();
+        setTitle("Calculadora");
         setLocationRelativeTo(null);
         this.setIconImage(new ImageIcon(Main.class.getClassLoader().getResource("img/calculadora.png")).getImage());
     }
