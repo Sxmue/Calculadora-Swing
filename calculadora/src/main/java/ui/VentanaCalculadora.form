@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.VentanaCalculadora">
+  <grid id="f35bf" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="157" y="19" width="367" height="714"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-663043"/>
+          <minimumSize width="359" height="428"/>
+          <preferredSize width="359" height="548"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="3235a" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="20" bottom="10" right="20"/>
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-855310"/>
+              <font/>
+              <foreground color="-397825"/>
+              <maximumSize width="-1" height="-1"/>
+              <minimumSize width="80" height="100"/>
+              <preferredSize width="90" height="150"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e553d" class="javax.swing.JLabel" binding="txtHistory">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto Light" size="20" style="0"/>
+                  <foreground color="-16777216"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="99cea" class="javax.swing.JLabel" binding="txtOp">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto Light" size="48" style="0"/>
+                  <foreground color="-16777216"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="fe604" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-663043"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="4d860" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="e1f65" layout-manager="FlowLayout" hgap="-1" vgap="-1" flow-align="0">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <autoscrolls value="false"/>
+                      <background color="-663043"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="be67d" class="javax.swing.JButton" binding="btnNumNegativo">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/Sin título-1.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/Sin título-1.png"/>
+                          <rolloverIcon value="img/btn1presionado.png"/>
+                          <text value="+/-"/>
+                        </properties>
+                      </component>
+                      <component id="8b521" class="javax.swing.JButton" binding="btnReciproco">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/Sin título-1.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/Sin título-1.png"/>
+                          <rolloverIcon value="img/btn1presionado.png"/>
+                          <text value="1/x"/>
+                        </properties>
+                      </component>
+                      <component id="a60e1" class="javax.swing.JButton" binding="btnPorcentaje">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/Sin título-1.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/Sin título-1.png"/>
+                          <rolloverIcon value="img/btn1presionado.png"/>
+                          <text value="%"/>
+                        </properties>
+                      </component>
+                      <component id="1aa32" class="javax.swing.JButton" binding="btnDivision">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <contentAreaFilled value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/Sin título-1.png"/>
+                          <opaque value="false"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/Sin título-1.png"/>
+                          <rolloverIcon value="img/btn1presionado.png"/>
+                          <text value="/"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="5b0bc" layout-manager="FlowLayout" hgap="-1" vgap="-1" flow-align="0">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-397825"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="7a2a9" class="javax.swing.JButton" binding="btn7">
+                        <constraints/>
+                        <properties>
+                          <background color="-397825"/>
+                          <borderPainted value="false"/>
+                          <contentAreaFilled value="true"/>
+                          <doubleBuffered value="false"/>
+                          <enabled value="true"/>
+                          <focusCycleRoot value="false"/>
+                          <focusPainted value="true"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <hideActionText value="false"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/btnnumeros.png"/>
+                          <iconTextGap value="4"/>
+                          <inheritsPopupMenu value="false"/>
+                          <maximumSize width="-1" height="-1"/>
+                          <minimumSize width="-1" height="-1"/>
+                          <name value=""/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/btnnumeros.png"/>
+                          <rolloverIcon value="img/Sin título-62.png"/>
+                          <selected value="false"/>
+                          <text value="7"/>
+                          <visible value="true"/>
+                        </properties>
+                      </component>
+                      <component id="98f64" class="javax.swing.JButton" binding="btn8">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/btnnumeros.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/btnnumeros.png"/>
+                          <rolloverIcon value="img/Sin título-62.png"/>
+                          <text value="8"/>
+                        </properties>
+                        <clientProperties>
+                          <hideActionText class="java.lang.Boolean" value="false"/>
+                        </clientProperties>
+                      </component>
+                      <component id="f83dc" class="javax.swing.JButton" binding="btn9">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/btnnumeros.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/btnnumeros.png"/>
+                          <rolloverIcon value="img/Sin título-62.png"/>
+                          <text value="9"/>
+                        </properties>
+                      </component>
+                      <component id="cb52b" class="javax.swing.JButton" binding="btnMultiplicar">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/Sin título-1.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/Sin título-1.png"/>
+                          <rolloverIcon value="img/btn1presionado.png"/>
+                          <text value="X"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="16a57" layout-manager="FlowLayout" hgap="-1" vgap="-1" flow-align="0">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-397825"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="5dfef" class="javax.swing.JButton" binding="btn4">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/btnnumeros.png"/>
+                          <maximumSize width="-1" height="-1"/>
+                          <minimumSize width="-1" height="-1"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/btnnumeros.png"/>
+                          <rolloverIcon value="img/Sin título-62.png"/>
+                          <text value="4"/>
+                        </properties>
+                      </component>
+                      <component id="ea66" class="javax.swing.JButton" binding="btn5">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/btnnumeros.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/btnnumeros.png"/>
+                          <rolloverIcon value="img/Sin título-62.png"/>
+                          <text value="5"/>
+                        </properties>
+                      </component>
+                      <component id="78a65" class="javax.swing.JButton" binding="btn6">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/btnnumeros.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/btnnumeros.png"/>
+                          <rolloverIcon value="img/Sin título-62.png"/>
+                          <text value="6"/>
+                        </properties>
+                      </component>
+                      <component id="587db" class="javax.swing.JButton" binding="btnRestar">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/Sin título-1.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/Sin título-1.png"/>
+                          <rolloverIcon value="img/btn1presionado.png"/>
+                          <text value="-"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="ecf48" layout-manager="FlowLayout" hgap="-1" vgap="-1" flow-align="0">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-397825"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="50b5d" class="javax.swing.JButton" binding="btn1">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/btnnumeros.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/btnnumeros.png"/>
+                          <rolloverIcon value="img/Sin título-62.png"/>
+                          <text value="1"/>
+                        </properties>
+                      </component>
+                      <component id="7d180" class="javax.swing.JButton" binding="btn2">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/btnnumeros.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/btnnumeros.png"/>
+                          <rolloverIcon value="img/Sin título-62.png"/>
+                          <text value="2"/>
+                        </properties>
+                      </component>
+                      <component id="becf1" class="javax.swing.JButton" binding="btn3">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/btnnumeros.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/btnnumeros.png"/>
+                          <rolloverIcon value="img/Sin título-62.png"/>
+                          <text value="3"/>
+                        </properties>
+                      </component>
+                      <component id="c3342" class="javax.swing.JButton" binding="btnMas">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/Sin título-1.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/Sin título-1.png"/>
+                          <rolloverIcon value="img/btn1presionado.png"/>
+                          <text value="+"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="4581e" layout-manager="FlowLayout" hgap="-1" vgap="-1" flow-align="0">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-397825"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="59ffe" class="javax.swing.JButton" binding="tbn0">
+                        <constraints/>
+                        <properties>
+                          <background color="-663043"/>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalAlignment value="0"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/btnceroSinPulsar.png"/>
+                          <maximumSize width="-1" height="-1"/>
+                          <minimumSize width="-1" height="-1"/>
+                          <preferredSize width="160" height="60"/>
+                          <pressedIcon value="img/btnceroSinPulsar.png"/>
+                          <rolloverIcon value="img/btnceropulsado.png"/>
+                          <text value="0          "/>
+                          <verticalTextPosition value="0"/>
+                        </properties>
+                      </component>
+                      <component id="b2cff" class="javax.swing.JButton" binding="btnComa">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/btnnumeros.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/btnnumeros.png"/>
+                          <rolloverIcon value="img/Sin título-62.png"/>
+                          <text value=","/>
+                        </properties>
+                      </component>
+                      <component id="481df" class="javax.swing.JButton" binding="btnIgual">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/Sin título-1.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/Sin título-1.png"/>
+                          <rolloverIcon value="img/btn1presionado.png"/>
+                          <text value="="/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="16788" layout-manager="FlowLayout" hgap="-1" vgap="-1" flow-align="0">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <autoscrolls value="false"/>
+                      <background color="-663043"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="77207" class="javax.swing.JButton" binding="btnAlCuadrado">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/Sin título-1.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/Sin título-1.png"/>
+                          <rolloverIcon value="img/btn1presionado.png"/>
+                          <text value="x²"/>
+                        </properties>
+                      </component>
+                      <component id="d4a54" class="javax.swing.JButton" binding="btnRaizCuadrado">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/Sin título-1.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/Sin título-1.png"/>
+                          <rolloverIcon value="img/btn1presionado.png"/>
+                          <text value="√x²"/>
+                        </properties>
+                      </component>
+                      <component id="1608f" class="javax.swing.JButton" binding="btnC">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/Sin título-1.png"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/Sin título-1.png"/>
+                          <rolloverIcon value="img/btn1presionado.png"/>
+                          <text value="C"/>
+                        </properties>
+                      </component>
+                      <component id="398d1" class="javax.swing.JButton" binding="btnBorrar">
+                        <constraints/>
+                        <properties>
+                          <borderPainted value="false"/>
+                          <contentAreaFilled value="false"/>
+                          <font name="Roboto Light" size="28" style="0"/>
+                          <foreground color="-16777216"/>
+                          <horizontalTextPosition value="0"/>
+                          <icon value="img/Sin título-1.png"/>
+                          <opaque value="false"/>
+                          <preferredSize width="80" height="60"/>
+                          <pressedIcon value="img/Sin título-1.png"/>
+                          <rolloverIcon value="img/btn1presionado.png"/>
+                          <text value="←"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
